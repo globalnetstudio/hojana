@@ -32,5 +32,9 @@ $footerBackgroundColor: #131313;
 			position: relative;
 			top: 2px;
 		}
+
+		a:hover {
+			text-decoration: underline;
+		}
 	}
 }

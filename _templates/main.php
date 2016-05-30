@@ -64,9 +64,18 @@
 		</section>
 
 		<aside>
+			<?php if($page_name == 'home') : ?>
 			<div class="bottom-address">
 				<p>Dirección: C. Rio Panuco S/N Mza-1, Col. Ampliación tulprtlac, 55418, Ecatepec Morelos, Estado de México</p>
 			</div>
+			<?php endif; ?>
+
+			<?php if($page_name == 'contact') : ?>
+			<div class="phone-mail">
+				<span class="phone-blue-icon">&nbsp;(55) 6130-9408</span>
+				<span class="mail-blue-icon">&nbsp;contacto@hojana.com</span>
+			</div> <!-- .phone-mail -->
+			<?php endif; ?>
 		</aside>
 
 		<a class="back-to-top"><i class="icon-arrow-up"></i></a>
@@ -75,7 +84,7 @@
 			<div id="footer">
 				<div class="footer__wrapper">
 
-					<p id="footer__copyright">Copyright <?php echo date('Y'); ?> &copy; Ohana Comercializadora <span class="dot">&#8226;</span> <span class="reserved">Todos los Derechos Reservados</span></p>
+					<p id="footer__copyright">Copyright <?php echo date('Y'); ?> &copy; Ojana Comercializadora <span class="dot">&#8226;</span> <span class="reserved">Todos los Derechos Reservados</span></p>
 
 					<p id="footer__developed-by">Desarrollo por <img src="/images/icons/global-net-studio-logo.png" alt="Global Net Studio Logo"> <a href="http://globalnetstudio.com/" target="_blank">Global Net Studio</a></p>
 

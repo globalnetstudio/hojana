@@ -2,10 +2,14 @@
 @import 'variables';
 @import 'mixins';
 @import 'utilities';
+@import 'form-errors';
 @import 'layout';
 @import 'modules/logo';
 @import 'modules/menu';
 @import 'modules/heading';
 @import 'modules/bottom-address';
+@import 'modules/phone-mail';
 @import 'modules/footer';
 @import 'views/home';
+@import 'views/contact';
+@import 'views/thanks';

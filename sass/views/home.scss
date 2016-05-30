@@ -1,9 +1,9 @@
-.row {
+.home__row {
 	@include row(100%, 'space-between');
 	margin-bottom: 30px;
 }
 
-.column {
+.home__column {
 	@include column(32%);
 	background-color: #fff;
 	position: relative;

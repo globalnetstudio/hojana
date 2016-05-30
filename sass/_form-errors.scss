@@ -1,0 +1,38 @@
+.form-errors {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: #a94442;
+  font-size: 14px;
+  margin: 1em auto 20px;
+  padding: 15px;
+}
+
+.form-errors p {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.form-errors ul {
+  margin-left: 2em;
+  list-style-type: disc;
+}
+
+.inputError,
+input.error,
+textarea.error {
+  border: solid 1px #a94442 !important;
+  background-color: #f2dede;
+}
+
+label.error {
+  color: #a94442;
+  display: block;
+  font-size: 13px;
+  margin: .5em 0 1em .5em;
+}
+
+#questionComment-error {
+  margin-top: -10px;
+}
