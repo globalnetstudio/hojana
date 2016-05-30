@@ -1,0 +1,29 @@
+.header {
+	background-image: url('/images/header/top-background.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 150px; 
+}
+
+.header__wrapper {
+	@include main-width($mainWidth);	
+}
+
+.logo-menu {
+	-js-display: flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.aside {
+	@include main-width($mainWidth);	
+}
+
+.content {
+	@include main-width($mainWidth);	
+}
+
+.footer__container {
+	@include main-width($mainWidth);
+}

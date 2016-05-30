@@ -1,0 +1,17 @@
+#logo {
+	margin-right: 10px;
+	height: auto;
+	width: 180px;
+
+	// Position
+	position: relative;
+	top: 60px;
+
+	// Flexbox
+	flex: 0 0 180px;
+
+	img {
+		max-width: 180px;
+		@extend .image-responsive;
+	}
+}

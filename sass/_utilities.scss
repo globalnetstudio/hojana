@@ -1,0 +1,26 @@
+.hide {
+	position: absolute;
+	top: -9999px;
+	text-indent: -9999px;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.image-responsive {
+	height: auto;
+	width: 100%;
+}
+
+.bgc-tomato {
+	background-color: tomato;
+	color: #222;
+}
+
+.bgc-blue {
+	background-color: skyblue;
+	color: #fff;
+}
