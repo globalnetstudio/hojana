@@ -64,7 +64,9 @@
 		</section>
 
 		<aside>
-			
+			<div class="bottom-address">
+				<p>Dirección: C. Rio Panuco S/N Mza-1, Col. Ampliación tulprtlac, 55418, Ecatepec Morelos, Estado de México</p>
+			</div>
 		</aside>
 
 		<a class="back-to-top"><i class="icon-arrow-up"></i></a>

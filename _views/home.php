@@ -410,4 +410,8 @@
 			</div> <!-- /.product-description -->
 		</div> <!-- /.column -->
 	</div> <!-- /.row -->
+
+	<div class="bottom-banner">
+		<img src="/images/content/home-bottom-banner.jpg" alt="La mejor calidad al mejor precio">
+	</div> <!-- /.bottom-banner -->
 </div> <!-- /.home -->

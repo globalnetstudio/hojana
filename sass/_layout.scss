@@ -25,6 +25,13 @@
 	min-height: 300px;
 }
 
+.bottom-address {
+	@include main-width($mainWidth);
+	padding-top: 20px;
+	border-top: dashed 1px #d3d3d3;
+	margin-bottom: 30px;
+}
+
 .footer__container {
 	@include main-width($mainWidth);
 }

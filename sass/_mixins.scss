@@ -7,8 +7,7 @@
 	width: $width;
 	-js-display: flex;
 	display: flex;
-	justify-content: #{$justify};
-	margin-bottom: 40px;
+	justify-content: #{$justify};	
 }
 
 @mixin column($width: 100%, $color: #d1d1d1) {
