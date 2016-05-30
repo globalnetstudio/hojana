@@ -21,7 +21,8 @@
 }
 
 .content {
-	@include main-width($mainWidth);	
+	@include main-width($mainWidth);
+	min-height: 300px;
 }
 
 .footer__container {

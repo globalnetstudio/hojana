@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="/css/normalize.css">
 
 		<!-- Google Fonts -->
-		<!-- Pendiente -->
+		<link href='https://fonts.googleapis.com/css?family=Arimo:400' rel='stylesheet' type='text/css'>
 
 		<!-- Jquery -->
 	  <script src="/js/jquery.min.js"></script>

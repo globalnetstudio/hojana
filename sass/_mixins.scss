@@ -2,3 +2,17 @@
 	width: $width;
 	margin: auto;
 }
+
+@mixin row($width: 100%, $justify: 'flex-start') {
+	width: $width;
+	-js-display: flex;
+	display: flex;
+	justify-content: #{$justify};
+	margin-bottom: 40px;
+}
+
+@mixin column($width: 100%, $color: #d1d1d1) {
+	flex: 0 0 $width;
+	border: solid 1px $color;
+	position: relative;	
+}

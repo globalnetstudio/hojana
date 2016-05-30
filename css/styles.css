@@ -59,6 +59,7 @@ a {
 .content {
   width: 980px;
   margin: auto;
+  min-height: 300px;
 }
 
 .footer__container {
@@ -167,6 +168,19 @@ a {
   background-position: bottom center;
 }
 
+.heading {
+  background: url("/images/content/bg-heading.jpg") repeat-x;
+  box-shadow: 0 2px 0 #fff, 0 5px 0 #bd2921;
+  color: #fff;
+  font-family: 'Arimo', Arial, Geneva;
+  font-size: 27px;
+  height: 60px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 #footer {
   background-color: #131313;
   box-shadow: 0 -1px 0 1px #fff, 0 -2px 0 3px #de0b00;
@@ -196,6 +210,88 @@ a {
   display: inline-block;
   position: relative;
   top: 2px;
+}
+
+.row {
+  width: 100%;
+  -js-display: flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.column {
+  -ms-flex: 0 0 32%;
+      flex: 0 0 32%;
+  border: solid 1px #d1d1d1;
+  position: relative;
+  background-color: #fff;
+  position: relative;
+  padding: 15px;
+  box-sizing: border-box;
+  -js-display: flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.column:before {
+  content: "";
+  background: transparent url("/images/content/product-bottom-shadow.jpg") center bottom no-repeat;
+  width: 100%;
+  height: 24px;
+  position: absolute;
+  bottom: -22px;
+  z-index: -1;
+}
+
+.column h3 {
+  color: #3a3a3a;
+  font-family: Arimo, Arial, sans-serif;
+  font-size: 21px;
+  text-align: center;
+  font-weight: normal;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.column h3:after {
+  content: "";
+  background: transparent url("/images/content/product-separator.jpg") center bottom no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.column p {
+  color: #757575;
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, sans-serif, Verdana;
+  line-height: 20px;
+}
+
+.column .product-image {
+  margin-right: 15px;
+}
+
+.column .product-image img {
+  height: auto;
+  max-width: 160px;
+  width: 100%;
+}
+
+.column .product-description {
+  -ms-flex: 0 1 55%;
+      flex: 0 1 55%;
 }
 
 /*# sourceMappingURL=styles.css.map */
