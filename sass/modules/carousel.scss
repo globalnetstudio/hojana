@@ -1,0 +1,30 @@
+.carousel-container {
+	margin-top: 90px;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	height: 350px;
+}
+
+#carousel {
+	height: 350px;
+}
+
+// Overrides
+.tracker-individual-container,
+.tracker-summation-container {
+ 	display: none !important;
+}
+
+#carousel-left,
+#carousel-right {
+	top: 155px;
+	bottom: initial;
+}
+
+#carousel-left {
+	left: 220px;
+}
+
+#carousel-right {
+	right: 200px;
+}

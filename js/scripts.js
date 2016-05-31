@@ -1,4 +1,15 @@
-$(function() {
+$(document).ready(function() {
+
+	// Slider
+	$("#carousel").featureCarousel({
+		smallFeatureWidth: .8,
+		smallFeatureHeight: .8,
+		smallFeatureOffset: 35,
+		topPadding: 0,
+		sidePadding: 0,
+		captionBelow: false
+  });
+
 	// ------------ Scroll Up ------------
 	var button = $('.scroll-top');
 
@@ -23,4 +34,5 @@ $(function() {
 			button.fadeOut();
 		}
 	});
+
 });

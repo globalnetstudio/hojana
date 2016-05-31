@@ -12,17 +12,18 @@
 		<!-- Google Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Arimo:400' rel='stylesheet' type='text/css'>
 
+	  <!-- Styles -->
+		<link rel="stylesheet" href="/css/feature-carousel.css">
+		<link rel="stylesheet" href="/css/styles.css">
+
 		<!-- Jquery -->
 	  <script src="/js/jquery.min.js"></script>
 
-		<!-- Jquery Easing -->
-		<script src="/js/jquery.easing.js"></script>
+		<!-- Feature Carousel -->
+	  <script src="/js/jquery.feature-carousel.js"></script>
 
 		<!-- Jquery Validation -->
 	  <script src="/js/jquery-validate.min.js"></script>
-
-	  <!-- Styles -->
-		<link rel="stylesheet" href="/css/styles.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	  <!--[if lt IE 9]>
@@ -96,9 +97,6 @@
 				</div> <!-- /.footer_wrapper -->
 			</div> <!-- /.footer -->
 		</footer>
-
-		<!-- Custom Scripts -->
-		<script src="/js/slider.js"></script>
 
 		<!-- Custom Scripts -->
 		<script src="/js/scripts.js"></script>

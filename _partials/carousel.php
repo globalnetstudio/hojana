@@ -1,22 +1,29 @@
-<div id="carousel">
-	<ul class="slider">
-		<li class="slider__slide">
-			<img src="/images/header/slider/slide-1.jpg" alt="Slide 1">
-		</li>
-		<li class="slider__slide">
-			<img src="/images/header/slider/slide-2.jpg" alt="Slide 2">
-		</li>
-		<li class="slider__slide">
-			<img src="/images/header/slider/slide-3.jpg" alt="Slide 3">
-		</li>
-	</ul> <!-- /.slider -->
-	
-	<div class="controls">
-		<a href="#">
-			<span id="previous-btn" class="controls__left-arrow"></span>
-		</a>
-		<a href="#">
-			<span id="next-btn" class="controls__right-arrow"></span>
-		</a>
-	</div> <!-- /.controls -->
-</div> <!-- /.carousel -->
+<div class="carousel-container">
+
+  <div id="carousel">
+    <div class="carousel-feature">
+      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/header/slider/slide-1.jpg"></a>
+      <div class="carousel-caption"></div>
+    </div> <!-- /.carousel-feature  -->
+
+    <div class="carousel-feature">
+      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/header/slider/slide-2.jpg"></a>
+      <div class="carousel-caption"></div>
+    </div> <!-- /.carousel-feature  -->
+
+    <div class="carousel-feature">
+      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/header/slider/slide-3.jpg"></a>
+      <div class="carousel-caption"></div>
+    </div> <!-- /.carousel-feature  -->
+
+  </div> <!-- /#carousel -->
+
+  <div id="carousel-left">
+    <img src="images/header/slider/left-arrow.png" />
+  </div> <!-- /.carousel-left  -->
+
+  <div id="carousel-right">
+    <img src="images/header/slider/right-arrow.png" />
+  </div> <!-- /.carousel-right  -->
+
+</div> <!-- /.carousel-container  -->
