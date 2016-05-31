@@ -2,7 +2,9 @@
 	background-image: url('/images/header/top-background.png');
 	background-repeat: no-repeat;
 	background-size: contain;
-	min-height: 150px; 
+	min-height: 150px;
+
+	box-shadow: 0 5px 10px -2px rgba(#000, .1);
 
 	&__wrapper {
 		@include main-width($mainWidth);	
@@ -17,7 +19,7 @@
 	align-items: center;
 }
 
-.carousel {
+#carousel {
 	@include main-width($mainWidth);
 	position: relative;
 	z-index: 0;
@@ -50,6 +52,12 @@
 			box-sizing: border-box;
 			padding: 0 20px;
 		}
+	}
+
+	#carousel {
+		min-width: $mainWidth;
+		box-sizing: border-box;
+		padding: 0 20px;
 	}
 
 	.content {

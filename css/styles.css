@@ -73,6 +73,7 @@ label.error {
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 150px;
+  box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.1);
 }
 
 .header__wrapper {
@@ -90,7 +91,7 @@ label.error {
       align-items: center;
 }
 
-.carousel {
+#carousel {
   width: 980px;
   margin: auto;
   position: relative;
@@ -124,6 +125,11 @@ label.error {
     min-width: 980px;
   }
   .header__wrapper {
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  #carousel {
+    min-width: 980px;
     box-sizing: border-box;
     padding: 0 20px;
   }
@@ -253,17 +259,6 @@ label.error {
   position: relative;
 }
 
-.slider:after {
-  content: "";
-  background-color: transparent;
-  bottom: 0;
-  height: 10px;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-}
-
 .slider li {
   list-style-type: none;
 }
@@ -273,7 +268,7 @@ label.error {
 }
 
 .slider__slide:nth-child(1) {
-  left: 190px;
+  left: 0;
   z-index: 0;
 }
 
@@ -287,7 +282,7 @@ label.error {
 }
 
 .slider__slide:nth-child(3) {
-  right: 190px;
+  right: 0;
   z-index: 0;
 }
 
