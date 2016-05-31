@@ -67,18 +67,20 @@
 		</section>
 
 		<aside>
-			<?php if($page_name == 'home') : ?>
-			<div class="bottom-address">
-				<p>Dirección: C. Rio Panuco S/N Mza-1, Col. Ampliación tulprtlac, 55418, Ecatepec Morelos, Estado de México</p>
-			</div>
-			<?php endif; ?>
+			<div class="aside">
+				<?php if($page_name == 'home') : ?>
+				<div class="bottom-address">
+					<p>Dirección: C. Rio Panuco S/N Mza-1, Col. Ampliación tulprtlac, 55418, Ecatepec Morelos, Estado de México</p>
+				</div>
+				<?php endif; ?>
 
-			<?php if($page_name == 'contact') : ?>
-			<div class="phone-mail">
-				<span class="phone-blue-icon">&nbsp;(55) 6130-9408</span>
-				<span class="mail-blue-icon">&nbsp;contacto@hojana.com</span>
-			</div> <!-- .phone-mail -->
-			<?php endif; ?>
+				<?php if($page_name == 'contact') : ?>
+				<div class="phone-mail">
+					<span class="phone-blue-icon">&nbsp;(55) 6130-9408</span>
+					<span class="mail-blue-icon">&nbsp;contacto@hojana.com</span>
+				</div> <!-- .phone-mail -->
+				<?php endif; ?>
+			</div> <!-- /.aside -->
 		</aside>
 
 		<a href="#" class="scroll-top"><span class="scroll-top__icon"></span></a>

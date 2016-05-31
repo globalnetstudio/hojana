@@ -6,8 +6,8 @@ $footerBackgroundColor: #131313;
 #footer {
 	background-color: $footerBackgroundColor;
 	box-shadow: 
-		0 -1px 0 1px #fff,
-		0 -2px 0 3px $footerBorderColor;
+		0 -2px #fff,
+		0 -5px $footerBorderColor;
 	box-sizing: border-box;
 	color: $skull;
 	font-family: Arial, Verdana, sans-serif;

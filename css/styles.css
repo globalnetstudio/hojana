@@ -109,8 +109,6 @@ label.error {
 }
 
 .bottom-address {
-  width: 980px;
-  margin: auto;
   padding-top: 20px;
   border-top: dashed 1px #d3d3d3;
   margin-bottom: 30px;
@@ -119,6 +117,29 @@ label.error {
 .footer__container {
   width: 980px;
   margin: auto;
+}
+
+@media (max-width: 980px) {
+  .header {
+    min-width: 980px;
+  }
+  .header__wrapper {
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .content {
+    box-sizing: border-box;
+    padding: 0 20px;
+    min-width: 980px;
+  }
+  .aside {
+    box-sizing: border-box;
+    padding: 0 20px;
+    min-width: 980px;
+  }
+  #footer {
+    min-width: 980px;
+  }
 }
 
 #logo {
@@ -360,7 +381,7 @@ label.error {
 
 #footer {
   background-color: #131313;
-  box-shadow: 0 -1px 0 1px #fff, 0 -2px 0 3px #de0b00;
+  box-shadow: 0 -2px #fff, 0 -5px #de0b00;
   box-sizing: border-box;
   color: #f0f0f0;
   font-family: Arial, Verdana, sans-serif;
