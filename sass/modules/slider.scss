@@ -1,8 +1,22 @@
 .slider {
+	background-color: #fff;
 	margin-top: 90px;
 	margin-bottom: 30px;
+	padding-bottom: 30px;
 	height: 320px;
 	width: 100%;
+	position: relative;
+
+	&:after {
+		content: "";
+		background-color: transparent;
+		bottom: 0;
+		height: 10px;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+		box-shadow: 0 5px 10px rgba(#000, .25);
+	}
 
 	li {
 		list-style-type: none;

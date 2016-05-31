@@ -1,0 +1,13 @@
+.scroll-top {
+	display: none;
+	position: fixed;
+	bottom: 100px;
+	right: 15px;
+	&__icon {
+		background: url('/images/icons/up-arrow.png') center center no-repeat;
+		background-size: cover;
+		display: block;
+		height: 30px;
+		width: 30px;
+	}
+}

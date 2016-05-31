@@ -81,7 +81,7 @@
 			<?php endif; ?>
 		</aside>
 
-		<a class="back-to-top"><i class="icon-arrow-up"></i></a>
+		<a href="#" class="scroll-top"><span class="scroll-top__icon"></span></a>
 
 		<footer>
 			<div id="footer">

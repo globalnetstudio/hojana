@@ -1,6 +1,5 @@
 $(function() {
 	// Configuration
-	var animationSpeed = 700;
 	var pause = 5000;
 
 	// Cache Carousel DOM
@@ -23,10 +22,7 @@ $(function() {
 	$slider.find('.slider__slide:last')
 			.insertBefore($slider.find('.slider__slide:first'));
 
-	// Evento de botón mover a la izquierda
-	previousButton.on('click', function(event) {
-		event.preventDefault();
-
+	function moveLeft() {
 		$slider.find('.slider__slide:eq(1)')
 			.animate({ left: '-' + 500 + 'px' },
 				function() {
@@ -38,12 +34,9 @@ $(function() {
 				$(this).insertAfter($slider.find('.slider__slide:last'))
 				.fadeIn();	
 			});
-	});
+	}
 
-	// Evento de botón mover a la derecha
-	nextButton.on('click', function(event) {
-		event.preventDefault();
-
+	function moveRight() {
 		$slider.find('.slider__slide:eq(1)')
 			.animate({ right: '-' + 500 + 'px' },
 				function() {
@@ -55,5 +48,34 @@ $(function() {
 				$(this).insertBefore($slider.find('.slider__slide:first'))
 				.fadeIn();	
 			});
+	}
+
+	// Evento de botón mover a la izquierda
+	previousButton.on('click', function(event) {
+		event.preventDefault();
+		moveLeft();
 	});
+
+	// Evento de botón mover a la derecha
+	nextButton.on('click', function(event) {
+		event.preventDefault();
+		moveRight();
+	});
+
+	var interval;
+
+	function autoplay() {
+		interval = setInterval(function() {
+			moveRight();
+		}, pause);
+	}
+
+	function pauseSlider() {
+		clearInterval(interval);
+	}
+
+	$slider.on('mouseenter', pauseSlider).on('mouseleave', autoplay);
+
+	autoplay();
+
 });
