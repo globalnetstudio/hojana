@@ -53,6 +53,9 @@
 						<?php include('_partials/menu.php'); ?>
 					</div> <!-- /.logo-menu -->
 
+					<!-- #carousel -->
+					<?php include('_partials/carousel.php'); ?>
+
 				</div> <!-- /.header__wrapper -->
 			</div> <!-- /.header -->
 		</header>
@@ -91,6 +94,9 @@
 				</div> <!-- /.footer_wrapper -->
 			</div> <!-- /.footer -->
 		</footer>
+
+		<!-- Custom Scripts -->
+		<script src="/js/slider.js"></script>
 
 		<!-- Custom Scripts -->
 		<script src="/js/scripts.js"></script>
