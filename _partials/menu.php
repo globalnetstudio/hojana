@@ -11,8 +11,14 @@
 		<img class="icon-phone" src="/images/icons/phone-white-icon.png"><span>(55) 6130-9408</span>
 	</li>
 
-	<li class="menu__link">
-		<img class="icon-mail" src="/images/icons/mail-white-icon.png"></i><span>contacto@hojana.com</span>
+	<li class="menu__link--mail">
+		<div class="mail-container">
+			<img class="icon-mail" src="/images/icons/mail-white-icon.png"></i>
+		</div>
+		<div class="mails-group">
+			<span>ventas@hojana.com</span>
+			<span>nadhia.calderon@hojana.com</span>
+		</div>
 	</li>
 
 	<li class="menu__link">

@@ -95,11 +95,11 @@
 	</form>
 
 	<div class="address">
-		<p>C. Río Panuco S/N Mza-1, col. Ampliación Tulpetlac, 55418, Ecatepec de Morelos, Estado de México</p>
+		<!-- <p>Dirección Instalaciones</p> -->
 	</div> <!-- .address -->
 
 	<div id="map-container" class="map">
-		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4472.418552709609!2d-99.0592406599636!3d19.56839113705919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f057dec71523%3A0xca5def9623b228d3!2sR%C3%ADo+P%C3%A1nuco+1%2C+Tulpetlac%2C+55400+Ecatepec+de+Morelos%2C+M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1464649413157" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<!-- <iframe id="map" src="#" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 	</div> <!-- /.map -->
 
 </div> <!-- .contact -->

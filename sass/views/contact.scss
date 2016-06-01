@@ -131,6 +131,7 @@ $buttonColor: #133657;
 	}
 
 	.address {
+		display: none;
 		background: #256196 url('/images/content/bg-heading.jpg') center center repeat-x;
 		color: #fff;
 		font-family: Arial, Verdana, sans-serif;
@@ -146,7 +147,8 @@ $buttonColor: #133657;
 		}
 	}
 
-	.map {		
+	.map {
+		display: none;	
 		border: solid 2px $red;
 		box-sizing: border-box;
 		height: 528px;
