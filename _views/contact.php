@@ -94,13 +94,13 @@
 
 	</form>
 
-	<div class="address">
+	<!-- <div class="address"> -->
 		<!-- <p>Dirección Instalaciones</p> -->
-	</div> <!-- .address -->
+	<!-- </div> --> <!-- .address -->
 
-	<div id="map-container" class="map">
+	<!-- <div id="map-container" class="map"> -->
 		<!-- <iframe id="map" src="#" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-	</div> <!-- /.map -->
+	<!-- </div> --> <!-- /.map -->
 
 </div> <!-- .contact -->
 

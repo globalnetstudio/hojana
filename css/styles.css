@@ -328,22 +328,29 @@ label.error {
   color: #696969;
   text-align: center;
   margin-bottom: 30px;
-}
-
-.phone-mail span {
-  display: inline-block;
-  height: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .phone-blue-icon {
-  background: transparent url("/images/icons/phone-blue.png") left center no-repeat;
-  padding-left: 30px;
+  background: transparent url("/images/icons/phone-blue.png") center center no-repeat;
+  height: 40px;
+  width: 45px;
+}
+
+.phone-number {
   margin-right: 30px;
 }
 
 .mail-blue-icon {
-  background: transparent url("/images/icons/mail-blue.png") left center no-repeat;
-  padding-left: 40px;
+  background: transparent url("/images/icons/mail-blue.png") center center no-repeat;
+  height: 40px;
+  width: 45px;
+  margin-right: 5px;
 }
 
 .scroll-top {
@@ -508,7 +515,7 @@ label.error {
 /*----------------CONTACT----------------*/
 .contact {
   font-family: Verdana, Arial, sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .contact .notice {
@@ -593,7 +600,6 @@ label.error {
 
 .contact .bottom-form {
   font-size: 12px;
-  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -602,7 +608,6 @@ label.error {
   float: left;
   line-height: 45px;
   text-align: left;
-  margin-bottom: 30px;
   width: 66.67%;
 }
 

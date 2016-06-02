@@ -69,18 +69,35 @@
 
 		<aside>
 			<div class="aside">
+
 				<?php if($page_name == 'home') : ?>
+
 				<div class="bottom-address">
 					<p>Dirección: C. Rio Panuco S/N Mza-1, Col. Ampliación tulprtlac, 55418, Ecatepec Morelos, Estado de México</p>
 				</div>
+
 				<?php endif; ?>
 
 				<?php if($page_name == 'contact') : ?>
+
 				<div class="phone-mail">
-					<span class="phone-blue-icon">&nbsp;(55) 6130-9408</span>
-					<span class="mail-blue-icon">&nbsp;contacto@hojana.com</span>
+
+					<div class="phone-blue-icon"></div>
+					<p class="phone-number">(55) 6130-9408</p>
+
+					<div class="mail-blue-icon"></div>
+
+					<div class="mails">
+						<p>
+							ventas@hojana.com<br>
+							nadhia.calderon@hojana.com
+						</p>
+					</div> <!-- /.mails -->
+
 				</div> <!-- .phone-mail -->
+
 				<?php endif; ?>
+
 			</div> <!-- /.aside -->
 		</aside>
 
